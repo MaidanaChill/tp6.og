@@ -1,0 +1,158 @@
+body {
+    background-color: #fcfcfc;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    height: 70px;
+    background-color: #000000;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    color: #fcfcfc;
+}
+
+.container {
+   
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
+    justify-content: center;
+    /* Centra los elementos a lo largo del eje principal horizontal */
+    align-items: center;
+    /* Centra los elementos a lo largo del eje secundario vertical */
+    background-color: #ee2626;
+    margin: 0 50px;
+    /* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
+}
+
+header {
+    display: flex;
+    /* Establece el encabezado como un contenedor flex */
+    align-items: baseline;
+    /* Alinea los elementos del encabezado a lo largo de la línea de base */
+    justify-content: space-between;
+    /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
+    padding: 25px;
+}
+
+.container-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-image {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.box {
+    width: 350px;
+    padding: 20px;
+    background-color: #000000;
+    margin: 10px;
+    text-align: center;
+}
+
+h3 {
+
+    color: #fcfcfc;
+}
+
+p {
+
+    color: #fcfcfc;
+}
+
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    background-color: #1c1c1c;
+    padding: 20px 1% 5px 1%;
+    position: relative;
+    margin-top: 60px;
+  }
+
+
+  .footerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .footerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .sectorMenu {
+    width: 100%;
+  }
+
+  li{
+    color: #fcfcfc;
+    list-style: none;
+  }
+
+  .footerContact{
+    width: 100%;
+    display: inline-block;
+    margin: 40px 0 0;
+  }
+
+  .sectorLista {
+    height: auto !important;
+  }
+
+  .redes{
+    color: #fcfcfc;
+  }
+
+  .sectorBanner {
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .creditos-programador{
+    color: #000;
+    padding: 1px;
+    text-align: center;
+    background: #eee;
+  }
+
+  .logo-redes{
+    display: flex;
+  }
+
+  
+  
